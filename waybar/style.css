@@ -1,0 +1,137 @@
+@import "./palette.css";
+
+* {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: "Terminess Nerd Font";
+}
+
+window#waybar {
+  color: @text;
+  background: rgba(35, 39, 52, 0.5);
+}
+tooltip {
+  background:rgba(00,00,00,0.5);
+  border-radius: 5%;
+}
+
+#backlight,
+#pulseaudio,
+#clock,
+#window{
+  padding: 1px 10px 3px 10px;
+  margin: 1px 0px 1px 0px;
+}
+#custom-power_profile,
+#idle_inhibitor,
+#battery,
+#network,
+#bluetooth,
+#temperature,
+#memory,
+#backlight,
+#mpris,
+#cpu,
+#workspaces{
+  font-size: 10px;
+  opacity: 1;
+  padding: 0px 10px 0px 10px;
+  margin: -5px 0px -5px 0px;
+  border: 0px solid #26233a;
+}
+
+#memory {
+  color: @red;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#temperature {
+  color: @peach;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#temperature.critical {
+  border-left: 0px;
+  border-right: 0px;
+  color: @love;
+}
+
+#backlight {
+  color: @pine;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/*#workspaces {
+  color: @foam;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0px;
+}*/
+
+#workspaces button {
+	padding: 5;
+	color: #fdf6e3;
+}
+#workspaces button.focused {
+	color: #268bd2;
+}
+
+#tray button.focused {
+	color: #268bd2;
+}
+
+#custom-power_profile {
+  color: @rose;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#window {
+  margin: -7 0 -7 0;
+  border-radius: 0 5px 5px 0;
+  border-left: 0px;
+}
+
+
+#clock {
+  color: @gold;
+}
+
+#network {
+  color: @lavender;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0px;
+}
+
+#idle_inhibitor {
+  border-radius: 5px;
+}
+
+#pulseaudio {
+  color: @love;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0px;
+  margin-left: 0px;
+
+}
+
+#bluetooth {
+  color: @flamingo;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0px;
+  margin-left: 0px;
+
+}
+#battery {
+  color: @iris;
+  border-radius: 0 5px 5px 0;
+  border-left: 0px;
+}
+
+#mpris {
+  color: @love;
+  border-radius: 5px;
+  margin-right: 10px;
+}
