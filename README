@@ -1,0 +1,8 @@
+Hyprland config files using Catppuccin palettes. 
+Depends:
+  wofi
+  hyprland 
+  waybar
+  dunst
+  kitty
+
