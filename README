@@ -1,13 +1,18 @@
-Hyprland config files using Catppuccin palettes. 
+hyprland config files using catppuccin palettes. also have hypr dotfiles cause i wanted to have acnl sounds when typing n wayland cant achieve that yet, so yeah.
 
-! might b discontinued soon if i really want some animal crossing sounds when typing
-
-Depends:
+depends (hyprland):
   wofi
-  hyprland 
+  hyprland (+hyprlock, hyprpaper, hypridle) 
   waybar
   dunst
   kitty
+
+depends (hypr):
+  rofi 
+  hypr-git (AUR)
+  kitty
+  polybar
+  picom
 
 wallpapers are from:
   https://github.com/zhichaoh/catppuccin-wallpapers
