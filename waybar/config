@@ -188,6 +188,7 @@
     "network",
     "memory",
     "cpu",
+    //"tray",
     "battery",
   ],
   "hyprland/window": {
