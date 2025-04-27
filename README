@@ -13,6 +13,7 @@ depends (hypr):
   kitty
   polybar
   picom
+  feh
 
 wallpapers are from:
   https://github.com/zhichaoh/catppuccin-wallpapers
