@@ -1,7 +1,5 @@
 [global/wm]
 include-file = $HOME/.config/polybar/catppuccin.ini
-margin-bottom = 0
-margin-top = 0
 
 [colors]
 background = ${macchiato.base}
@@ -14,7 +12,7 @@ disabled = ${macchiato.teal}
 
 [bar/example]
 width = 100%
-height = 35pt
+height = 20pt
 radius = 6
 
 ; dpi = 96
@@ -47,9 +45,9 @@ enable-ipc = true
 
 ; wm-restack = generic
 ; wm-restack = bspwm
-wm-restack = generic
+ wm-restack = ewmh
 
-override-redirect = false 
+override-redirect = false
 
 ; This module is not active by default (to enable it, add it to one of the
 ; modules-* list above).
