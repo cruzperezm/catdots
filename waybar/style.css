@@ -1,8 +1,7 @@
-@import "./palette.css";
-
+@import "./palette.css"; 
 * {
   font-weight: 600;
-  color: #ffffff;
+  /*color: #ffffff;*/
   font-size: 10px;
   font-family: "Terminess Nerd Font";
 }
@@ -64,22 +63,23 @@ tooltip {
   border-radius: 0px 0px 0px 0px;
 }
 
-/*#workspaces {
+#workspaces {
   color: @foam;
   border-radius: 5px 0px 0px 5px;
   border-right: 0px;
-}*/
+}
+
+#workspaces button.visible {
+  background: rgba(237, 135, 150, 0.5);
+}
 
 #workspaces button {
-	padding: 5;
-	color: #fdf6e3;
-}
-#workspaces button.focused {
-	color: #268bd2;
+	padding: 5px;
+  color: @gold;
 }
 
-#tray button.focused {
-	color: #268bd2;
+#tray button.active {
+	color: @red;
 }
 
 #custom-power_profile {
